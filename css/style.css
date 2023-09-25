@@ -36,13 +36,18 @@ h1,h2,h3,h4,h5,h6,p{
     /* margin: 0px; */
     text-decoration: none;
 }
+.f11{
+    font-size: 20px;
+}
+
 /* ===common css */
 
 /* ===top wrap design area */
 .top-wrap{
     background-color:transparent;
     position: absolute;
-    top: 0px;
+    top: 10px;
+    
     left: 0px;
     width: 100%;
     color: #fff;
@@ -74,7 +79,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* ==navbar area start */
 .navbar-area{
     position: absolute;
-    top: 90px;
+    top: 100px;
     left: 0px;
     width: 100%;
 
@@ -82,17 +87,17 @@ h1,h2,h3,h4,h5,h6,p{
 /* == navbar area end */
 /* ==navbar start */
 .navbar-area-bg{
-    background: rgb(255, 255, 255,0.2) ;
+    background: rgba(14, 9, 9, 0.7) ;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding-right: var(--bs-navbar-nav-link-padding-x);
 	padding-left: var(--bs-navbar-nav-link-padding-x);
-	padding: 22px 60px 20px 0px;
-    font-size: 18px;
-    font-weight: 600;
-    transition: all linear 0.2s;
-    color: #fff;
-  
+	padding: 25px 60px 20px 14px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: all linear 0.2s;
+	color: #fff;
+    border-radius: 10px;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover{
     color:#1eb2a6 ;
@@ -126,8 +131,9 @@ h1,h2,h3,h4,h5,h6,p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position-y: 0px;
+    background-clip: content-box;
   
 }
 .b-header{
@@ -147,6 +153,9 @@ h1,h2,h3,h4,h5,h6,p{
 .banner-btn a:hover{
     background-color: #1eb2a6;
     color: #fff;
+}
+.clock{
+    display: none;
 }
 
 /* ==banner area === */
