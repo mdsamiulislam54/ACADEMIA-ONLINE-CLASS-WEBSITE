@@ -43,6 +43,17 @@
     .navbar-toggler{
         background-color: brown;
     }
+    .img-respon{
+        width: 100%;
+    }
+    .text-respon{
+        width: 100%;
+    }
+    .counter-area {
+       display: flex;
+       flex-direction: column;
+    }
+  
  
  
 } 

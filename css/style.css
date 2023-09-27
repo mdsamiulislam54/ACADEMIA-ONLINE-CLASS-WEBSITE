@@ -131,7 +131,7 @@ h1,h2,h3,h4,h5,h6,p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position-y: 0px;
     background-clip: content-box;
   
@@ -159,3 +159,100 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* ==banner area === */
+/* ==about area */
+
+.img-area img{
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+ 
+}
+#about{
+    background-color:rgb(245, 240, 238);
+    padding: 30px;
+}
+.text-box{
+    padding-bottom: 10px;
+}
+.text-box-area{
+    background-color: #fff;
+    padding: 15px;
+    transition: all linear 0.4s;
+    border-radius: 10px;
+}
+.text-box-area:hover{
+    background-color: rgb(255,255,255,0.1);
+    border-left: 4px solid #1eb2a6;
+    /* color: #fff; */
+}
+.about-heading-area{
+    padding: 35px 0px;
+}
+
+
+/* ==about area */
+/* ===counter area== */
+#counter{
+    background-image: url(../img/bg_3.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+  
+}
+#counter::before  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .3;
+    background: #111111;
+    z-index: -2;
+}
+.counter-icon {
+    display: flex;
+
+    /* flex-direction: column; */
+}
+.counter-main-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.counter-animation{
+    font-size: 30px;
+    font-weight: 800;
+}
+.counter-icon img{
+    width: 80px;
+    height: 80px;
+   color: red;
+}
+.count{
+    font-size: 45px;
+    font-weight: 800;
+    color: #fff;
+  
+
+}
+.counter-text p{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* ===counter area== */
+
+
+.coures-img img{
+    width: 100px;
+    height: 100px;
+}
+.tns-outer [aria-controls], .tns-outer [data-action] {
+    cursor: pointer;
+    display: none;
+}
