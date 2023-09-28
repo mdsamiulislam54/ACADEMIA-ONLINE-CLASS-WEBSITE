@@ -21,5 +21,6 @@ var slider = tns({
     autoplay: true,
     controls:false,
     arrowKeys: true,
+    mouseDrag:true
   });
 

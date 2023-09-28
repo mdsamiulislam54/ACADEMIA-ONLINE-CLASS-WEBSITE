@@ -247,7 +247,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ===counter area== */
 
-
+/* ===courese area== */
+section#our-courese\ {
+    padding: 100px;
+}
 .coures-img img{
     width: 100px;
     height: 100px;
@@ -256,3 +259,54 @@ h1,h2,h3,h4,h5,h6,p{
     cursor: pointer;
     display: none;
 }
+.my-courese{
+    padding: 30px 0px;
+    gap: 10px;
+}
+.courese-item{
+    display: flex;
+    flex-direction: column;
+    /* width: 400px;
+    height: 600px; */
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    border-right: 5px solid var(--bs-cyan);
+    border-bottom: 5px solid var(--bs-cyan);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    border-radius: 10px;
+}
+.courese-item .courese-fee{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 5px;
+    transition: all linear 0.4s;
+}
+.courese-item .courese-fee:hover{
+    color: #fff;
+    background-color: var(--bs-info);
+}
+.five-star{
+    color: #0dcaf0;
+}
+.enroll-button{
+    padding-top: 20px;
+}
+.enroll-button a{
+    text-decoration: none;
+    padding: 10px 20px ;
+    text-align: center;
+    border: 2px solid var(--bs-info);
+    border-radius: 10px;
+    color: #000;
+    transition: all linear 0.4s;
+    
+
+}
+.enroll-button a:hover{
+    background-color: var(--bs-info);
+    color: #fff;
+}
+
+
+/* ==courese area=== */
